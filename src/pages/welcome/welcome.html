@@ -4,15 +4,15 @@
   See http://ionicframework.com/docs/components/#navigation for more info on
   Ionic pages and navigation.
 -->
-<ion-header>
-
-  <ion-navbar>
-    <ion-title>welcome</ion-title>
-  </ion-navbar>
-
-</ion-header>
 
 
-<ion-content padding>
-
+<ion-content padding id="welcome">
+  <div class="centered_content">
+    <h1>Welcome to Login Experiment Tutorial</h1>
+    <p>Today we learn how to login, lets Discover something interesting</p>
+    <div class="btns">
+    <button ion-button block color="primary" (click)="signup()">Signup</button>
+    <button ion-button block color="secondary" (click)="login()">Login</button>
+    </div>
+</div>
 </ion-content>

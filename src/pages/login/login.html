@@ -14,5 +14,19 @@
 
 
 <ion-content padding>
+    <ion-list>
+
+        <ion-item>
+          <ion-label floating>Username</ion-label>
+          <ion-input type="text" #usr id="usr"></ion-input>
+        </ion-item>
+      
+        <ion-item>
+          <ion-label floating>Password</ion-label>
+          <ion-input type="password" #pass id="pass"></ion-input>
+        </ion-item>
+      
+      </ion-list>
+      <button ion-button block color="primary" (click)="login()">Login</button>
 
 </ion-content>
